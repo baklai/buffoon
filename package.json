@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/baklai/buffoon.git"
+    "url": "git+https://github.com/baklai/buffoon.git"
   },
   "keywords": [
     "node.js"
