@@ -1,0 +1,32 @@
+{
+  "name": "buffoon",
+  "version": "1.0.0",
+  "description": "Чат c шутом на node.js и socket.io",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/baklai/buffoon.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Dmitrii Baklai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baklai/buffoon/issues"
+  },
+  "homepage": "https://github.com/baklai/buffoon#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

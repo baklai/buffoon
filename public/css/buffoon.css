@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'FDMedian';
+  src: url('/font/FDMedian.ttf');
+}
+
+body {
+  font-family: 'Consolas', monospace;
+  background-color: black;
+  color: #0f0;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  color: #0f0;
+}
+
+#messages {
+  margin-left: 1em;
+  list-style: none;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: #0f0;
+  padding: 1em 0.5em;
+  display: block;
+  font-size: 1.5em;
+  font-family: 'Consolas', monospace;
+  flex: 1;
+}
+
+label {
+  display: block;
+  padding: 1em 0.5em;
+  font-size: 1.5em;
+}
+
+.text_effect {
+  font-family: 'FDMedian';
+  text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+}

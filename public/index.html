@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Buff(o_O)n • Чат на node.js и socket.io</title>
+    <link rel="stylesheet" href="/css/buffoon.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="text_effect">
+        <img
+          src="/img/buffoon.png"
+          width="28"
+          height="28"
+          alt="Buff(o_O)n"
+        />&ensp;Buff(o_O)n
+      </h1>
+    </header>
+
+    <main>
+      <ul id="messages"></ul>
+    </main>
+
+    <footer style="display: flex;">
+      <label for="message">&gt;</label>
+      <input type="text" id="input" required autofocus autocomplete="off" />
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/js/buffoon.js"></script>
+  </body>
+</html>
